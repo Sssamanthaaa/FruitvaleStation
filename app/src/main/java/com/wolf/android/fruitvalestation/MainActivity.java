@@ -17,4 +17,17 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, DalyCityActivity.class);
         startActivity(i);
     }
+
+    public void openDublinPleasantonTimes(View view) {
+        Intent i = new Intent(this, DublinPleasantonActivity.class);
+        startActivity(i);
+    }
+    public void openRichmondTimes(View view){
+        Intent i = new Intent( this, RichmondActivity.class);
+        startActivity(i);
+    }
+    public void openWarmSpringsTimes(View view){
+        Intent i = new Intent ( this, WarmSpringActivity.class);
+        startActivity(i);
+    }
 }
